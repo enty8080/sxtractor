@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
 
-#
-# sxtractor
-# Shellcode Extractor
-#
-# Created by EntySec on 2020.
-# Copyright (C) 2020 by EntySec. All rights reserved.
-#
-
 import sys
 import re
 
