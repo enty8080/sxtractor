@@ -4,8 +4,8 @@ import sys
 import re
 
 class sxtractor:
-    def help_usage():
-        print("Usage: objdump -d <input_file> | sxtractor")
+    def __init__(self):
+        self.usage = "Usage: objdump -d <input_file> | sxtractor"
 
     def sxtract():
         shellcode = ""
@@ -25,8 +25,8 @@ class sxtractor:
                     else: 
                         break
             except:
-                help_usage()
+                print(self.usage)
             print(shellcode)
             print("Shellcode Lenght: " + str(lenght))
         else:
-            help_usage()
+            print(self.usage)
