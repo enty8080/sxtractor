@@ -7,7 +7,7 @@ class sxtractor:
     def __init__(self):
         self.usage = "Usage: objdump -d <input_file> | sxtractor"
 
-    def sxtract():
+    def sxtract(self):
         shellcode = ""
         lenght = 0
         if not sys.stdin.isatty():
